@@ -1,0 +1,10 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: black;
+}
+.img {
+  height: 300px;
+  width: 300px;
+  flex-wrap: wrap;
+}

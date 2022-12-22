@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+}
+
+.item {
+    background-color: grey;
+    padding: 0.25rem;
+    font-size: 2rem;
+    border: 1px solid black
+}

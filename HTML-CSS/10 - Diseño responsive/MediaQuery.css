@@ -1,0 +1,18 @@
+@media (min-width: 576px) {
+  h1 {
+    background-color: red;
+  }
+}
+
+@media (min-height: 200px) {
+  p {
+    color: white;
+    background-color: blue;
+  }
+}
+
+@media (orientation: landscape) {
+  p {
+    color: chartreuse;
+  }
+}

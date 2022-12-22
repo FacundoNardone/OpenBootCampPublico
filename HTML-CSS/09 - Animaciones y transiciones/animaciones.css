@@ -1,0 +1,37 @@
+body {
+  background-color: grey;
+}
+
+.padre {
+  background-color: black;
+  width: 400px;
+  height: 400px;
+}
+.hijo {
+  background-color: #c3e991;
+  width: 50%;
+  height: 50%;
+}
+
+.padre:hover .hijo {
+  animation: transforma 2s infinite forwards;
+}
+
+@keyframes transforma {
+  0% {
+    background-color: #51a3a3;
+    transform: translateX(0%) translateY(0%);
+  }
+  25% {
+    background-color: #75485e;
+    transform: translateX(100%) translatey(0%);
+  }
+  50% {
+    background-color: #cb904d;
+    transform: translateX(100%) translatey(100%);
+  }
+  75% {
+    background-color: #dfcc74;
+    transform: translateX(0%) translatey(100%);
+  }
+}

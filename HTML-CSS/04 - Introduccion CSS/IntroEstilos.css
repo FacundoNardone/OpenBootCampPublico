@@ -1,0 +1,25 @@
+.color-hexa {
+  color: #08a4bd;
+}
+.color-rgb {
+  color: rgb(112, 142, 129);
+}
+.color-rgba {
+  color: rgba(245, 40, 145, 0.68);
+}
+.coloresFondos {
+  color: rgba(245, 40, 145, 0.68);
+  background-color: #7699d4;
+  margin: 0px;
+}
+.imagenFondo {
+  background-image: url(https://bnetcmsus-a.akamaihd.net/cms/blog_header/sl/SL6ES5LLIKYB1589825040021.jpg);
+  background-position: top left;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px 20px;
+  height: 500px;
+  width: 1150px;
+  margin: 0;
+}

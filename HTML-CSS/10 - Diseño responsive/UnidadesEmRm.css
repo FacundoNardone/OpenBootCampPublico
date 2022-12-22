@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+  padding: 0;
+}
+
+.escenario-1 {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  font-size: 32px;
+}
+
+.escenario-2 {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 500px;
+}
+.EM {
+  font-size: 2em;
+}
+.RM {
+  font-size: 2rem;
+}

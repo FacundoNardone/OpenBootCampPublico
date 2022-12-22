@@ -1,0 +1,32 @@
+.contenedor {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  border: 7px solid black;
+  flex-direction: row-reverse;
+}
+.contenedor2 {
+  height: 20px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  position: sticky;
+}
+
+.uno {
+  background-color: green;
+  border: 5px solid black;
+}
+.dos {
+  background-color: blue;
+  border: 5px solid black;
+}
+.tres {
+  background-color: red;
+  border: 5px solid black;
+}
+body {
+  background-color: grey;
+}

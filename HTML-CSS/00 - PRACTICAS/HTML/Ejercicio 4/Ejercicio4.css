@@ -1,0 +1,14 @@
+#carne,
+#laGallega {
+  color: red;
+  font-size: 2rem;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #3c3c3c, #5e4062, #99306a, #d1004e, #f00000);
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}

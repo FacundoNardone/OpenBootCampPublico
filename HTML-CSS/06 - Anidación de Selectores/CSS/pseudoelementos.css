@@ -1,0 +1,39 @@
+.contenedor {
+  background-color: aqua;
+  height: 100px;
+  width: 300px;
+}
+
+span.frase {
+  font-style: italic;
+}
+
+span.frase::after {
+  font-size: xx-small;
+  content: "<<";
+}
+
+span.frase::before {
+  content: ">>";
+  font-size: xx-small;
+}
+
+.libro {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  background-color: coral;
+}
+.libro::first-letter {
+  font-size: xx-large;
+}
+.libro::first-line {
+  color: white;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: firebrick;
+}

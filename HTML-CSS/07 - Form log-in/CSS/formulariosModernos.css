@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 2px;
+  background-color: #161717;
+  color: white;
+}
+
+label span {
+  font-weight: 700;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 450px;
+  margin: auto;
+}
+.div-google-twitter {
+  display: flex;
+  width: max-content;
+  gap: 5px;
+  background-color: transparent;
+}
+
+.div-google-twitter span {
+  background-color: #4285f4;
+  display: flex;
+  height: 25px;
+  align-items: center;
+}
+
+.btn-twitter picture,
+img {
+  background-color: #eeeeee;
+}
+
+.btn-google img {
+  background-color: white;
+}
+
+.btn-google picture {
+  background-color: #4285f4;
+  display: flex;
+  height: 25px;
+  align-items: center;
+}
+
+.frm-datos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-google {
+  background-color: rgb(66, 133, 244);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  width: 175px;
+  height: 40px;
+  align-items: center;
+  padding: 2%;
+}
+.btn-google:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.btn-google span {
+  color: white;
+  padding: 5px;
+  font-weight: 500;
+}
+.btn-google picture {
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 3px;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-google picture img {
+  width: 75%;
+}
+
+.btn-twitter {
+  display: flex;
+  color: #ccc;
+  background-color: #eee;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-twitter:hover {
+  opacity: 75%;
+  background-color: #ddd;
+}
+
+.btn-twitter picture img {
+  width: 70%;
+}
+
+.div-separador {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.div-separador hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #eeeeee;
+  margin: auto;
+}
+
+.div-nombre-usuario {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label input {
+  width: 100%;
+  background-color: #212121;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14pt;
+}
+
+label input:hover {
+  background-color: #454045;
+  border: solid 1px #f3f3f4;
+  box-shadow: 0 0 4px rgb(179, 102, 102);
+  transition: background-color 0.5s, border 0.5s, box-shadow 0.5s;
+}
+
+label input:focus {
+  background-color: white;
+  border: solid 1px #f3f3f4;
+  box-shadow: 0 0 4px rgb(179, 102, 102);
+}
+
+#cb-terminos {
+  width: 20px;
+}
+
+.cb-terminos {
+  display: flex;
+  flex-direction: row;
+}
+
+.cb-terminos span {
+  font-weight: 400;
+}
+
+.div-crear-cuenta {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.div-crear-cuenta span {
+  background-color: #ea4c89;
+}
+
+.btn-crear-cuenta {
+  margin-top: 30px;
+  display: flex;
+  background-color: #ea4c89;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  justify-content: center;
+  font-size: 14pt;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-crear-cuenta:hover {
+  border: solid 1px #f3f3f4;
+  box-shadow: 0 0 4px rgb(179, 102, 102);
+  opacity: 75%;
+  transition: opacity 0.5s, border 0.2s, box-shadow 0.2s;
+}
+.div-acceder {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}

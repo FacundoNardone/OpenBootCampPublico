@@ -1,0 +1,15 @@
+h1 {
+  color: #ff125f;
+  font-size: 24pt;
+}
+
+.secundaria {
+  color: magenta;
+}
+
+* {
+  color: blue;
+}
+p #principal {
+  color: green;
+}

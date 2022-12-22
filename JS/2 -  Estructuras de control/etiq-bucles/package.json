@@ -1,0 +1,13 @@
+{
+  "name": "etiq-bucles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "iniciar": "node etiq-bucles.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

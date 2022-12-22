@@ -1,0 +1,41 @@
+.container-ejeX {
+    display: flex;
+    background-color: grey;
+    gap: 0.5rem;
+    height: 100px;
+    flex-direction: row;
+    /*     JUSTIFY CONTENT SE USA CUANDO FLEXDIRE = ROW X */
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.container-ejeY {
+    display: flex;
+    background-color: black;
+    gap: 0.5rem;
+    height: 100%;
+    flex-direction: column;
+    /*     ALIGN ITEMS SE USA CUANDO FLEXDIRE = COLUMN Y */
+    align-items: center;
+    padding: 5px;
+
+}
+
+.item {
+    background-color: brown;
+    padding: 0.25px;
+}
+
+
+.item1 {
+    background-color: blueviolet;
+    padding: 0.25px;
+    align-self: end;
+}
+
+.item8 {
+    background-color: blueviolet;
+    padding: 0.25px;
+    align-self: center;
+}

@@ -1,0 +1,32 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.hover {
+  background-color: blueviolet;
+  width: 300px;
+  height: 100px;
+}
+
+.hover:hover {
+  background-color: black;
+  color: blueviolet;
+}
+
+.listado {
+  background-color: palevioletred;
+}
+
+.listado p:first-child {
+  color: white;
+}
+a:link {
+  color: coral;
+}
+a:visited {
+  color: firebrick;
+}
+a:active {
+  background-color: rgb(94, 9, 192);
+}

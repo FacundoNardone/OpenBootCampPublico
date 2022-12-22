@@ -1,0 +1,27 @@
+.div1 p{
+    background-color: blueviolet;
+}
+
+.padre{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+.hijo{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.nieto{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.padre{
+    display: flex;
+/*     flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}

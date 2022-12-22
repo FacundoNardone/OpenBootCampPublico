@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios Modernos</title>
+    <link rel="stylesheet" href="../CSS/formulariosModernos.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h3>Iniciar sesion en empresa</h3>
+      <div class="div-google-twitter">
+        <button class="btn-google">
+          <picture>
+            <img src="../IMG/icono-google.png" alt="logo-google" id:="img-google" />
+          </picture>
+          <span>Registrate con Google</span>
+        </button>
+        <button class="btn-twitter">
+          <picture>
+            <img src="../IMG/icono-twitter.png" alt="logo-twitter" id:="img-twitter" />
+          </picture>
+        </button>
+      </div>
+      <div class="div-separador">
+        <hr />
+        <span>Registrate</span>
+        <hr />
+      </div>
+      <div class="formulario">
+        <form class="frm-datos" action="" method="">
+          <div class="div-nombre-usuario">
+            <label for="nombre">
+              <span>Nombre</span>
+              <input type="text" name="" id="nombre" />
+            </label>
+            <label for="usuario">
+              <span>Usuario</span>
+              <input type="text" name="" id="usuario" />
+            </label>
+          </div>
+          <div class="div-email">
+            <label for="email">
+              <span>Correo</span>
+              <input type="email" name="" id="email" />
+            </label>
+          </div>
+          <div class="div-contraseña">
+            <label for="contraseña">
+              <span>Contraseña</span>
+              <input
+                type="password"
+                name=""
+                id="contraseña"
+                placeholder="6+ caracteres"
+              />
+            </label>
+          </div>
+
+          <div class="div-terminos">
+            <label class="cb-terminos" for="cb-terminos">
+              <input type="checkbox" name="cb-terminos" id="cb-terminos" />
+              <span
+                >Creandose una cuenta en este sitio, acepta los
+                <a href="">Terminos de servicio, Politicas de Privacidad</a>, y
+                <a href="">Envio de Notificaciones</a>
+              </span>
+            </label>
+          </div>
+          <div class="div-crear-cuenta">
+            <button type="submit" class="btn-crear-cuenta">
+              <span>Crear una cuenta</span>
+            </button>
+          </div>
+          <div class="div-acceder">
+            <span>Ya tiene una cuenta? <a href="">Iniciar sesion</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
