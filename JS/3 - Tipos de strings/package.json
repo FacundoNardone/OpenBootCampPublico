@@ -1,0 +1,15 @@
+{
+  "name": "3---tipos-de-strings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tipos-string.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "iniciarTipos":"node tipos-string.js",
+    "iniciarMetodos":"node metodos-comunes-string.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
