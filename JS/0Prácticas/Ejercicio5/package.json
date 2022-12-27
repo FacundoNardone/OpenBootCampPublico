@@ -1,13 +1,11 @@
 {
-  "name": "3tipos-de-strings",
+  "name": "ejercicio5",
   "version": "1.0.0",
   "description": "",
-  "main": "tipos-string.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "iniciarTipos":"node tipos-string.js",
-    "iniciarMetodos":"node metodos-comunes-string.js"
-
+    "iniciar": "node Ejercicio5.js"
   },
   "keywords": [],
   "author": "",
